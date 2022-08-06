@@ -1,0 +1,16 @@
+{
+  "name": "my-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d M"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://kishore-java.github.io/my-portfolio",
+  "dependencies": {
+    "gh-pages": "^1.2.0"
+  }
+}

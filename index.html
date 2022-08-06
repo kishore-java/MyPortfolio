@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <nav class="navBar">
+            <h1>Kishore Makireddi's Portfolio</h1>
+            <div class="navMenu">
+
+            
+            <a href="#aboutMe" >About</a>
+            <a href="#skills" >Skills</a>
+            <a href="#projects" >Projects</a>
+            <a href="#connect" >Let's Connect</a>
+        </div>
+        </nav>
+        <section class="heroSection">
+            <img class="profileImage" src="./images/web-developer-svgrepo-com.svg"/>
+            <div class="heroDetails">
+                <h1>Kishore Makireddi</h1>
+                <h3>Frontend Developer at Digisprint solutions</h3>
+            </div>
+        </section>
+        <section class="aboutMe" id="aboutMe">
+            <h1>What do i do?</h1>
+            <p>I have an understanding of the web development process from inception to deployment and also responible for building websites using HTML,CSS and JS. In addition to the technical skills, also having excellent problem-solving skills and flexibility due to the changing technologies.</p>
+        </section>
+        <section class="skillsAndProjects">
+            <div class="skills" id="skills" >
+                <h1 class="cardHeading">Skills</h1>
+                <img src="./images/html-svgrepo-com.svg" title="Html">
+                <img src="./images/css-svgrepo-com.svg" title="Css">
+                <img src="./images/js-svgrepo-com.svg" title="Javascript">
+                <img src="./images/nodejs-svgrepo-com.svg" title="NodeJS">
+                <img src="./images/reactjs-svgrepo-com.svg" title="React">
+                <!-- <img src="./images/" title="MongoDB"> -->
+                <!-- <img src="" title="Redux">
+                <img src="" title="Firebase"> -->
+            </div>
+            <div class="projects" id="projects">
+                <h1 class="cardHeading">PROJECTS</h1>
+                <div class="projectContainer">
+                    <img/>
+                    <div class="projectDescription">
+                    <h4>Project 1</h4>
+                    <p></p>
+                    </div>
+                </div>
+                <div class="projectContainer">
+                    <img/>
+                    <div class="projectDescription">
+                    <h4>project 2</h4>
+                    <p></p>
+                    </div>
+                </div>
+                <div class="projectContainer">
+                    <img/>
+                    <div class="projectDescription">
+                    <h4>project 3</h4>
+                    <p></p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class='contactForm' id='contactForm'>
+            <h1>Let's Connect!</h2>
+            <div class='formGroup'>
+              <label for='name'>Enter Full Name</label><br/>
+              <input type='text' id='name' placeholder='Full Name'/>
+            </div>
+            <div class='formGroup'>
+              <label for='email'>Email</label><br/>
+              <input type='text' id='email' placeholder='Email'/>
+            </div>
+            <div class='formGroup'>
+              <label for='message'>Message</label><br/>
+              <textarea placeholder="Send some message!" id="message" name="w3review" rows="4" cols="50"></textarea>
+            </div>
+            <button class='submitButton' onClick={submit()}>Connect</button>
+          </section>
+        </main>
+        <script src="script.js"></script>
+ 
+    </main>
+    
+</body>
+</html>
